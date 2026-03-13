@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAFAEL- COSMOS</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="icon" href="../favicon.ico" />
+    <script src="../js/theme-init.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="py-8 fixed shadow-md w-full z-50">
+      <div class="container">
+        <!-- wrapper -->
+        <div class="flex justify-between items-center w-full">
+          <!-- logo -->
+          <div class="flex items-center gap-3">
+            <span class="logo-badge">🚀</span>
+            <p class="font-bold text-2xl">COSMOS</p>
+          </div>
+          <!-- nav -->
+          <nav class="headerNav">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./missions.html">Missions</a></li>
+              <li><a href="./spacecraft.html">Spacecraft</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./contacts.html">Contacts</a></li>
+            </ul>
+          </nav>
+          <!-- toggle menu -->
+          <div class="toggleMenu">
+            <span></span>
+
+            <span></span>
+          </div>
+          <!-- transparent -->
+          <div class="transparent"></div>
+        </div>
+      </div>
+    </header>
+    <section class="pt-60 pb-20 text-center stars-bg relative">
+      <div class="container">
+        <!-- wrapper -->
+        <div>
+          <!-- title -->
+          <div>
+            <h1>Active Missions</h1>
+            <p class="md:w-120 mx-auto my-5">
+              Current Space exploration initiatives pushing the boundaries of
+              human knowledge and technological capabilites
+            </p>
+          </div>
+          <!-- Cards Wrapper -->
+          <div class="overflow-hidden md:grid md:grid-cols-3 md:gap-5">
+            <!-- Card 1 -->
+            <div
+              class="flex flex-col overflow-hidden rounded-2xl mb-8 relative"
+            >
+              <img
+                class="object-cover h-70 w-full"
+                src="../IMG/photo-1614728894747-a83421e2b9c9.jpg"
+                alt=""
+              />
+              <span
+                class="mission-badge mission-badge--active absolute right-4 top-4 px-4 py-1"
+                >Active</span
+              >
+              <div
+                class="flex flex-col px-10 bg-nebula-purple py-8 items-start h-70 max-h-70"
+              >
+                <p class="text-starlight">📅Launched: July 2020</p>
+                <h3 class="">Perseverance Rover</h3>
+                <p class="text-left py-5 text-secondary">
+                  Exploring Mars' Jezero Crater to seek signs of ancient life
+                  and collect samples for future return to Earth
+                </p>
+                <div class="flex gap-5 pt-3 w-full border-t-1 border-white/20">
+                  <p>📍Mars</p>
+                  <p>🛰️Sol 987</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="flex flex-col overflow-hidden rounded-2xl mb-8 relative"
+            >
+              <img
+                class="object-cover h-70 w-full"
+                src="../IMG/photo-1446776811953-b23d57bd21aa.jpg"
+                alt=""
+              />
+              <span
+                class="mission-badge mission-badge--active absolute right-4 top-4 px-4 py-1"
+                >Active</span
+              >
+              <div
+                class="flex flex-col text-left px-10 bg-nebula-purple py-8 h-70 max-h-70"
+              >
+                <p class="text-starlight">📅Continuous Operation</p>
+                <h3 class="md:w-120">International Space Station</h3>
+                <p class="py-5 text-secondary">
+                  Humanity's permanent laboratory in low Earth orbit, hosting
+                  cutting-edge research in microgravity.
+                </p>
+                <div
+                  class="flex flex-row gap-8 pt-3 w-full border-t-1 border-white/20"
+                >
+                  <p>🌍Leo</p>
+                  <p>👨‍🚀7 Crew</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="flex flex-col overflow-hidden rounded-2xl mb-8 relative"
+            >
+              <img
+                class="object-cover h-70 w-full"
+                src="../IMG/photo-1462331940025-496dfbfc7564.jpg"
+                alt=""
+              />
+              <span
+                class="mission-badge mission-badge--active absolute right-4 top-4 px-4 py-1"
+                >Active</span
+              >
+              <div
+                class="flex flex-col text-left px-10 bg-nebula-purple py-8 h-70 max-h-70"
+              >
+                <p class="text-starlight">📅Launched: Dec 2021</p>
+                <h3>James Webb Telescope</h3>
+                <p class="py-5 text-secondary">
+                  Observing the universe in infrared to see the first galaxies
+                  formed after the Big Bang.
+                </p>
+                <div
+                  class="flex flex-row gap-8 pt-3 w-full border-t-1 border-white/20"
+                >
+                  <p>🔭L2 Orbit</p>
+                  <p>📸13.5B yrs</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div
+              class="flex flex-col overflow-hidden rounded-2xl mb-8 relative"
+            >
+              <img
+                class="object-cover h-70 w-full"
+                src="../IMG/photo-1517976487492-5750f3195933.jpg"
+                alt=""
+              />
+              <span
+                class="mission-badge mission-badge--active absolute right-4 top-4 px-4 py-1"
+                >Upcoming</span
+              >
+              <div
+                class="flex flex-col text-left px-10 bg-nebula-purple py-8 h-70 max-h-70"
+              >
+                <p class="text-starlight">📅Launch: Nov 2024</p>
+                <h3>Artemis II</h3>
+                <p class="py-5 text-secondary">
+                  First crewed mission to orbit the Moon since Apollo 17. paving
+                  the way for lunar surface return.
+                </p>
+                <div
+                  class="flex flex-row gap-8 pt-3 w-full border-t-1 border-white/20"
+                >
+                  <p>🌙Lunar Orbit</p>
+                  <p>👨‍🚀4 Astronauts</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div
+              class="flex flex-col overflow-hidden rounded-2xl mb-8 relative"
+            >
+              <img
+                class="object-cover h-70 w-full"
+                src="../IMG/photo-1451187580459-43490279c0fa.jpg"
+                alt=""
+              />
+              <span
+                class="mission-badge mission-badge--active absolute right-4 top-4 px-4 py-1"
+                >Upcoming</span
+              >
+              <div
+                class="flex flex-col text-left px-10 bg-nebula-purple py-8 h-70 max-h-70"
+              >
+                <p class="text-starlight">📅Launch: Oct 2024</p>
+                <h3>Europa Clipper</h3>
+                <p class="py-5 text-secondary">
+                  Investigating Jupiter's moon Europa to determine if its
+                  subsurface ocean could harbor life.
+                </p>
+                <div
+                  class="flex flex-row gap-8 pt-3 w-full border-t-1 border-white/20"
+                >
+                  <p>🪐Jupiter</p>
+                  <p>🚀49 Flybys</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="flex flex-col overflow-hidden rounded-2xl relative">
+              <img
+                class="object-cover h-70 w-full"
+                src="../IMG/photo-1444703686981-a3abbc4d4fe3.jpg"
+                alt=""
+              />
+              <span
+                class="mission-badge mission-badge--active absolute right-4 top-4 px-4 py-1"
+                >Upcoming</span
+              >
+              <div
+                class="flex flex-col text-left px-10 bg-nebula-purple py-8 h-70 max-h-70 md:rounded-b-2xl"
+              >
+                <p class="text-starlight">📅Launch: 2027</p>
+                <h3>Dragonfly</h3>
+                <p class="py-5 text-secondary">
+                  Robotic rotorcraft lander exploring Saturn's moon Titan,
+                  searching for prebiotic chemical processes.
+                </p>
+                <div
+                  class="flex flex-row gap-8 pt-3 w-full border-t-1 border-white/20"
+                >
+                  <p>🟣Titan</p>
+                  <p>🚁Drone</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Box 3 -->
+    <section
+      class="flex bg-deep-space py-8 border-y-1 border-white/20 text-center justify-center"
+    >
+      <div class="container">
+        <div
+          class="flex flex-col justify-center items-center md:flex-row md:justify-between"
+        >
+          <div class="flex items-center gap-3">
+            <p class="font-bold text-2xl">🚀 COSMOS</p>
+          </div>
+          <div>
+            <ul class="flex gap-5 my-5">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./missions.html">Missions</a></li>
+              <li><a href="./spacecraft.html">Spacecraft</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="flex gap-5">
+              <li
+                class="border-1 rounded-full bg-[#121217] p-1.5 items-center justify-center h-11 w-11 flex"
+              >
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+              <li
+                class="border-1 rounded-full bg-[#121217] p-1.5 items-center justify-center h-11 w-11 flex"
+              >
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li
+                class="border-1 rounded-full bg-[#121217] p-1.5 items-center justify-center h-11 w-11 flex"
+              >
+                <a href=""><i class="fa-regular fa-camera"></i></a>
+              </li>
+              <li
+                class="border-1 rounded-full bg-[#121217] p-1.5 items-center justify-center h-11 w-11 flex"
+              >
+                <a href=""><i class="fa-solid fa-video"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="flex bg-deep-space py-8 border-y-1 border-white/20 text-center justify-center"
+    >
+      <div class="container">
+        <p>© 2026 Cosmos Space Exploration. All rights reserved.</p>
+        <p class="opacity-80">Designed by Steven</p>
+      </div>
+    </footer>
+
+    <script src="../js/toggle-menu.js"></script>
+  </body>
+</html>
