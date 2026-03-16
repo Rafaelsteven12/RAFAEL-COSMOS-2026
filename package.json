@@ -6,7 +6,9 @@
   "name": "rafael-cosmos",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  },
   "scripts": {
     "test": " npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
