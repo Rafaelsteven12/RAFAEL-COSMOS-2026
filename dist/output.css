@@ -1489,24 +1489,25 @@
     scroll-behavior: smooth;
   }
   body {
-    overflow-x: hidden;
-    font-family: var(--font-grotesk);
-    font-size: var(--text-base);
-    line-height: var(--tw-leading, var(--text-base--line-height));
-    color: color-mix(in srgb, #000 80%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      color: color-mix(in oklab, var(--color-black) 80%, transparent);
-    }
-    @media (prefers-color-scheme: dark) {
-      color: color-mix(in srgb, #fff 80%, transparent);
-      @supports (color: color-mix(in lab, red, red)) {
-        color: color-mix(in oklab, var(--color-white) 80%, transparent);
-      }
-    }
-    background: linear-gradient( 135deg, #0a0a0f 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #0a0a0f 100% );
-    background-attachment: fixed;
-    position: relative;
-  }
+  overflow-x: hidden;
+  font-family: var(--font-grotesk);
+  font-size: var(--text-base);
+  line-height: var(--tw-leading, var(--text-base--line-height));
+
+  color: var(--text-primary);
+
+  background: linear-gradient(
+    135deg,
+    #0a0a0f 0%,
+    #1a1a2e 25%,
+    #16213e 50%,
+    #0f3460 75%,
+    #0a0a0f 100%
+  );
+
+  background-attachment: fixed;
+  position: relative;
+}
   .stars-bg {
     position: relative;
   }
